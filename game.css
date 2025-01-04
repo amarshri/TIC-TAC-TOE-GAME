@@ -46,10 +46,34 @@ border-radius: 1rem;
 box-shadow: 0 0 0.3rem;
 font-size: 8vmin;
 color: #4361ee;
+background-color: #f7ede2;
 }
 #reset{
     padding: 1rem;
     font-size: 1.25rem;
     background-color: #ffdab9; 
     border-radius: 1rem;
+}
+
+#newgame{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #ffdab9; 
+    border-radius: 1rem;
+}
+#msg{
+    color: #076d72;
+    font-size: 10vmin;
+}
+.msg-container{
+  height: 110%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.hide{
+  display: none;  
 }
